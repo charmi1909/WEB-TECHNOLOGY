@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        a=parseInt(prompt("enter size of array:"));
+        
+        let array=[];
+        document.write("Array:");
+        for(let i=0;i<a;i++){
+            n=parseInt(prompt("enter numbers of your array:"));
+            document.write(n+ " ,");
+            array.push(n);
+        }
+        let max=array[0];
+        console.log()
+        for(let i=0;i<a;i++){
+            if(array[i]>max){
+                max=array[i];
+            }
+            
+                
+        }
+        document.write("the max number:"+max);
+    </script>
+</body>
+</html>

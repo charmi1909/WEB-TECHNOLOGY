@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        a=parseInt(prompt("enter 1st num:"));
+        b=parseInt(prompt("enter 2nd num:"));
+        c=prompt("enter sign(+,-,*,/)");
+
+        switch(c){
+            case'+':
+            document.write("addition:"+(a+b));
+            break;
+
+            case'-':
+            document.write("substraction:"+(a-b));
+            break;
+
+            case'*':
+            document.write("multiplication:"+(a*b));
+            break;
+
+            case'/':
+            document.write("divison:"+(a/b));
+            break;
+
+            default:
+            document.write("invalid operation");
+            break;
+
+        }
+
+    </script>
+</body>
+</html>
